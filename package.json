@@ -1,0 +1,26 @@
+{
+  "name": "bsc-rp-contract",
+  "version": "1.0.0",
+  "description": "BSC R.P. Contract",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node compile.js",
+    "deploy": "node deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mguariero@github.com/mguariero/bsc-rp-contract.git"
+  },
+  "author": "Mauricio <mguariero@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mguariero/bsc-rp-contract/issues"
+  },
+  "homepage": "https://github.com/mguariero/bsc-rp-contract#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "dotenv": "^16.0.0",
+    "solc": "^0.6.12",
+    "web3": "^1.7.0"
+  }
+}
