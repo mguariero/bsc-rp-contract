@@ -22,6 +22,8 @@ const deploy = async () => {
     .send({ from: accounts[0] });
 
   console.log("Contract deployed to: ", result.options.address);
+
+  process.exit(0);
 };
 
 deploy();
